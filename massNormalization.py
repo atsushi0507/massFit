@@ -11,7 +11,7 @@ r.gROOT.SetBatch()
 label = "Work in Progress"
 
 date = str(datetime.date.today())
-directory = os.getcwd() + "/plots/" + date + "/massFit"
+directory = os.getcwd() + "/plots/" + date + "/massNormalized"
 if (not os.path.isdir(directory)):
     os.makedirs(directory)
 
